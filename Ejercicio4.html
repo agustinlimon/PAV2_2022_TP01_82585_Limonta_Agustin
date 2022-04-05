@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+  </head>
+
+  <body>
+    <form method="post" action="https://jkorpela.fi/cgi-bin/echo.cgi">
+      <fieldset>
+        <legend>Datos personales</legend>
+
+        <table>
+          <tr>
+            <td><label for="Nombre">Nombre</label></td>
+            <td><input type="text" id="Nombre" name="Nombre"></td>
+          </tr>
+
+          <tr>
+            <td><label for="Password">Contraseña</label></td>
+            <td><input type="password" id="Password" name="Password"></td>
+          </tr>
+
+          <tr>
+            <td>Sexo</td>
+            <td>  
+              <input type="radio" name="sexo" id="Masculino" value="Masculino">
+              <label for="Masculino">Masculino</label>
+              <input type="radio" name="sexo" id="Femenino" value="Femenino">
+              <label for="Femenino">Femenino</label>
+            </td>                    
+          </tr> 
+
+          <tr>
+            <td><label for="NroDocumento">NroDocumento</label></td>
+            <td><input type="text" id="NroDocumento" name="NroDocumento"></td>
+          </tr>
+
+          <tr>
+            <td><label for="TipoDocumento">Tipo Documento</label></td>
+            <td>
+              <select name="TipoDocumento" id="TipoDocumento">
+                <option  selected value=""></option>
+                <option  value="DNI">Documento Nacional de Identidad</option>
+                <option value="LC">Libreta Civica</option>
+                <option value="LE">Libreta de Enrolamiento</option>
+                <option  value="PASP">Pasaporte</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td>
+              <input type="checkbox" id="ingles" name="ingles" value="1">
+              <label for="ingles">Ingles</label>
+              <input type="checkbox" id="portuges" name="portuges" value="1">
+              <label for="portuges">Portuges</label>
+              <input type="checkbox" id="italiano" name="italiano" value="1">
+              <label for="italiano">Italiano</label>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label>Observaciones</label></td>
+            <td><textarea name="Observaciones" id="Observaciones" cols="50" rows="5"></textarea></td>
+            
+          </tr>
+        </table>
+      </fieldset>
+      <br>
+      <input type="button" name="alerta" value="Saludar" onclick="alert('Buenos dias!!')">
+      <button type="submit">Grabar</button>
+    </form>
+
+    <hr><br>
+    <a href="index.html">Menu Principal</a>
+  </body>
+</html>

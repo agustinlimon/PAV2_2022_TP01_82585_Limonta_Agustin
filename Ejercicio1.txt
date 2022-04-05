@@ -1,0 +1,22 @@
+1) Se transfieren al navegador 113Kb para visualizar la pagina completa. La pagina demora en cargar un total 
+de 2.70 segundos. No, tarda mas. 
+
+2) Si, posee errores.
+
+3) El archivo que demora mas tiempo en descargarse es "ad_status.js" con un total de 301ms.
+
+4) No, hay diferentes servidores.
+
+5) Hay un total de 76 imagenes. Tarda en promedio unos 60ms para cargar cada imagen, este valor no es exacto sino un estimativo es decir algunas imagenes se cargan mas rapido uqe otras. La imagen mas pesada es de 166kb.
+
+6) Utiliza 4 archivos de hojas de estilo.
+
+7) Esta hecho en html 1.0.
+
+8) No, no estan minificados
+
+9) Tardaria un total de 3.22 segundos.
+
+10) No, la pagina no es compatible con la cabecera.
+
+12) Si, en este caso la pagina si es compatible con la cabecera.
